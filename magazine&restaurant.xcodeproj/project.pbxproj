@@ -13,6 +13,11 @@
 		6EA066192C047A87003DA8D3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6EA066182C047A87003DA8D3 /* Base */; };
 		6EA0661B2C047A88003DA8D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EA0661A2C047A88003DA8D3 /* Assets.xcassets */; };
 		6EA0661E2C047A88003DA8D3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6EA0661D2C047A88003DA8D3 /* Base */; };
+		6EA066262C047AD7003DA8D3 /* MagazineInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA066252C047AD7003DA8D3 /* MagazineInfo.swift */; };
+		6EA066282C047AE5003DA8D3 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA066272C047AE5003DA8D3 /* Restaurant.swift */; };
+		6EA0662B2C047D3D003DA8D3 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 6EA0662A2C047D3D003DA8D3 /* Kingfisher */; };
+		6EA0662D2C047F1C003DA8D3 /* MagazineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA0662C2C047F1C003DA8D3 /* MagazineViewController.swift */; };
+		6EA0662F2C047FD7003DA8D3 /* MagazineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA0662E2C047FD7003DA8D3 /* MagazineTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,10 @@
 		6EA0661A2C047A88003DA8D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EA0661D2C047A88003DA8D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6EA0661F2C047A88003DA8D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EA066252C047AD7003DA8D3 /* MagazineInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagazineInfo.swift; sourceTree = "<group>"; };
+		6EA066272C047AE5003DA8D3 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		6EA0662C2C047F1C003DA8D3 /* MagazineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagazineViewController.swift; sourceTree = "<group>"; };
+		6EA0662E2C047FD7003DA8D3 /* MagazineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagazineTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EA0662B2C047D3D003DA8D3 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +73,10 @@
 				6EA0661A2C047A88003DA8D3 /* Assets.xcassets */,
 				6EA0661C2C047A88003DA8D3 /* LaunchScreen.storyboard */,
 				6EA0661F2C047A88003DA8D3 /* Info.plist */,
+				6EA066252C047AD7003DA8D3 /* MagazineInfo.swift */,
+				6EA066272C047AE5003DA8D3 /* Restaurant.swift */,
+				6EA0662C2C047F1C003DA8D3 /* MagazineViewController.swift */,
+				6EA0662E2C047FD7003DA8D3 /* MagazineTableViewCell.swift */,
 			);
 			path = "magazine&restaurant";
 			sourceTree = "<group>";
@@ -83,6 +97,9 @@
 			dependencies = (
 			);
 			name = "magazine&restaurant";
+			packageProductDependencies = (
+				6EA0662A2C047D3D003DA8D3 /* Kingfisher */,
+			);
 			productName = "magazine&restaurant";
 			productReference = 6EA0660E2C047A87003DA8D3 /* magazine&restaurant.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +128,9 @@
 				Base,
 			);
 			mainGroup = 6EA066052C047A87003DA8D3;
+			packageReferences = (
+				6EA066292C047D3C003DA8D3 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 6EA0660F2C047A87003DA8D3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +158,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EA066282C047AE5003DA8D3 /* Restaurant.swift in Sources */,
 				6EA066162C047A87003DA8D3 /* ViewController.swift in Sources */,
+				6EA0662F2C047FD7003DA8D3 /* MagazineTableViewCell.swift in Sources */,
+				6EA0662D2C047F1C003DA8D3 /* MagazineViewController.swift in Sources */,
+				6EA066262C047AD7003DA8D3 /* MagazineInfo.swift in Sources */,
 				6EA066122C047A87003DA8D3 /* AppDelegate.swift in Sources */,
 				6EA066142C047A87003DA8D3 /* SceneDelegate.swift in Sources */,
 			);
@@ -298,8 +322,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +332,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.magazine-restaurant";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -326,8 +355,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +365,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.magazine-restaurant";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -363,6 +397,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6EA066292C047D3C003DA8D3 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6EA0662A2C047D3D003DA8D3 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6EA066292C047D3C003DA8D3 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6EA066062C047A87003DA8D3 /* Project object */;
 }
