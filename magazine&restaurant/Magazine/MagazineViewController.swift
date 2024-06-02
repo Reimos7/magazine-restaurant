@@ -21,7 +21,7 @@ class MagazineViewController:  UIViewController , UITableViewDataSource, UITable
         tableView.dataSource = self
         tableView.delegate = self
         
-        self.navigationItem.title = "SeSac"
+        self.navigationItem.title = "SeSAC TRAVEL"
     }
     
     

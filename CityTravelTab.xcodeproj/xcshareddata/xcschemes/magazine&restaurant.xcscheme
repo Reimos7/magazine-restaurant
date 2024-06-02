@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6EA0660D2C047A87003DA8D3"
-               BuildableName = "magazine&amp;restaurant.app"
-               BlueprintName = "magazine&amp;restaurant"
-               ReferencedContainer = "container:magazine&amp;restaurant.xcodeproj">
+               BuildableName = "CityTravelTab.app"
+               BlueprintName = "CityTravelTab"
+               ReferencedContainer = "container:CityTravelTab.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6EA0660D2C047A87003DA8D3"
-            BuildableName = "magazine&amp;restaurant.app"
-            BlueprintName = "magazine&amp;restaurant"
-            ReferencedContainer = "container:magazine&amp;restaurant.xcodeproj">
+            BuildableName = "CityTravelTab.app"
+            BlueprintName = "CityTravelTab"
+            ReferencedContainer = "container:CityTravelTab.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6EA0660D2C047A87003DA8D3"
-            BuildableName = "magazine&amp;restaurant.app"
-            BlueprintName = "magazine&amp;restaurant"
-            ReferencedContainer = "container:magazine&amp;restaurant.xcodeproj">
+            BuildableName = "CityTravelTab.app"
+            BlueprintName = "CityTravelTab"
+            ReferencedContainer = "container:CityTravelTab.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
