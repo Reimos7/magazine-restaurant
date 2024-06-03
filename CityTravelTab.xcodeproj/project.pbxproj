@@ -108,8 +108,6 @@
 				6EA0661A2C047A88003DA8D3 /* Assets.xcassets */,
 				6EA0661C2C047A88003DA8D3 /* LaunchScreen.storyboard */,
 				6EA0661F2C047A88003DA8D3 /* Info.plist */,
-				6EEE2A422C05D14D00B7BC29 /* TravelModel.swift */,
-				6EE9E58D2C0CE7C200570590 /* CityInfo.swift */,
 			);
 			path = "magazine&restaurant";
 			sourceTree = "<group>";
@@ -121,6 +119,7 @@
 				6EA649312C0B0C4600772112 /* CityTableViewCell.swift */,
 				6EA649322C0B0C4600772112 /* CityTableViewCell.xib */,
 				6EA649432C0CADE400772112 /* DetailViewController.swift */,
+				6EEE2A422C05D14D00B7BC29 /* TravelModel.swift */,
 			);
 			path = City;
 			sourceTree = "<group>";
@@ -162,6 +161,7 @@
 				6EE9E5902C0CEBF300570590 /* PopularCityViewController.swift */,
 				6EE9E5922C0CEC2200570590 /* PopularCityTableViewCell.swift */,
 				6EE9E5932C0CEC2200570590 /* PopularCityTableViewCell.xib */,
+				6EE9E58D2C0CE7C200570590 /* CityInfo.swift */,
 			);
 			path = PopularCity;
 			sourceTree = "<group>";
